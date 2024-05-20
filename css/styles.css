@@ -44,3 +44,60 @@ body {
   text-decoration: none;
 }
 
+#nav-bar li a:hover {
+  color: #b20710;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  margin-bottom: 20px;
+  
+}
+
+.poster img{
+  border-radius: 10px;
+  width: 200px;
+  height: auto;
+}
+
+.media-descript{
+  padding-left: 15px;
+  font-size: 0.9em;
+}
+#name-media{
+  padding-bottom: 20px;
+}
+
+#name-media h1, h2{
+  padding-top: 5px;
+  margin: 5px;
+}
+
+#btn button{
+  border-radius: 5px;
+  font-size: 1em;
+  padding: 5px;
+  margin: 10px 20px 15px 0;
+  border-radius: 8px;
+  border: none;
+  background-color: #4f4f4f;
+  color: #b5b5be;
+  cursor: pointer;
+  width: 90px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn button:hover{
+  background-color: #b20710;
+}
+
+.tags p, a {
+  display: inline;
+  margin: 10px 10px 10px 0;
+  text-decoration: none;
+  color: #eeeeee;
+}
